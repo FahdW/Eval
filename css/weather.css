@@ -1,0 +1,45 @@
+.nav {
+  background-color: black;
+}
+
+.nav__tab {
+  background-color: black;
+}
+
+.nav-tabs > li > a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  border-right: 1px solid white;
+  margin-right: 0;
+}
+
+.nav-tabs> li > a:hover {
+  background-color: #AAA;
+}
+
+.nav__tab a{
+  color: white;
+  border: none;
+}
+
+.weather {
+  margin-bottom: 3rem;
+}
+
+.weather-container {
+  margin-top: 2rem;
+}
+
+.weather-high {
+  margin-bottom: 0;
+}
+
+.weather-day {
+  font-weight: bold;
+}
+
+.weather-navbar {
+  margin-top: 3rem;
+}

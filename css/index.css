@@ -1,0 +1,93 @@
+.paragraph-header {
+  margin-bottom: 0;
+}
+
+.header {
+  background-image: url("../img/banner-logo.png");
+  background-color: #002341;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 15vh;
+  margin-bottom: 0;
+}
+
+.hero-image {
+  background-image: url("../img/hero-image.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 70vh;
+  margin-bottom: 1rem;
+}
+
+.paragraph-image {
+  width: 100%;
+  max-height: 40%;
+  margin-bottom: 1rem;
+}
+
+.carousel-paragraph {
+  margin-top: 10rem;
+}
+
+/*Prevent image from spilling into next column*/
+.swan-long {
+  margin-right: 3rem;
+}
+
+.footer {
+  background-color: #002341;
+  height: 10rem;
+}
+
+.footer__text {
+  padding-top: 3rem;
+  color: white;
+}
+
+.footer__url {
+  padding-right: 2rem;
+  text-decoration: underline;
+  color: white;
+}
+
+/*Small Devices*/
+@media (max-width: 768px) {
+  .hero-image {
+    height: 30vh;
+  }
+
+  .footer__text {
+    margin-top: 1rem;
+    font-size: 12px;
+  }
+
+  .footer__url {
+    font-size: 10px;
+  }
+
+  /*Prevent paragraph from overlapping swan-long.png*/
+  #indent-paragraph {
+    margin-left: 3rem;
+  }
+
+  .weather-img {
+    height: 4rem;
+  }
+
+  .twitter-feed {
+    margin-top: 3rem;
+  }
+}
+
+@media(min-width:769px) and (max-width:1025px) {
+  .hero-image {
+    height: 50vh;
+  }
+}
+
+/*Full Desktops*/
+@media (min-width: 1200px) {
+  .swan-long {
+    width: 100%;
+  }
+}
